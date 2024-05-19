@@ -14,6 +14,7 @@
         referrerpolicy="no-referrer">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="./home.css" rel="stylesheet">
+        <link href="https://use.fontawesome.com/releases/v5.0.1/css/all.css" rel="stylesheet">
         <link
             rel="stylesheet"
             href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
@@ -167,109 +168,91 @@
             </div>
         </section>
 
-        <section class="faq container">
-            <h2>Frequently Asked Questions</h2>
-            <div class="accordion" id="faqAccordion">
-                <div class="card">
-                    <div class="card-header" id="headingOne">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                How does Rank Revival work?
-                            </button>
-                        </h3>
-                    </div>
-                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Rank Revival downloads your website data from Google Search Console, and sorts it by the URLs that have been declining in traffic over time. This allows you and your team to focus refreshing content that needs it the most.
-                        </div>
-                    </div>
+
+        <section class="section faq bg-pink-light">
+            <div class="container mx-auto">
+              <h2 class="titleh2 mb-4">Frequently Asked Question</h2>
+              <div class="accordions">
+                <div class="accordion">
+                  <label class="accordion__title" for="radio_1">
+                    <input type="radio" name="radio" id="radio_1" checked>
+                    How does Rank Revival work?
+                  </label>
+                  <div class="accordion__text">
+                    <p>
+                        Rank Revival downloads your website data from Google Search Console, and sorts it by the URLs that have been declining in traffic over time. This allows you and your team to focus refreshing content that needs it the most.
+                    </p>
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingTwo">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                How can I keep track of the articles that have been refreshed?
-                            </button>
-                        </h3>
-                    </div>
-                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            We have a built-in notes and calendar system that lets you keep detailed notes about what you've changed in your content and when. You can hide your optimized content for a scheduled amount of time, and after that time period has passed, the page can reappear in your to-do list - but only if traffic is still declining after the changes you made.
-                        </div>
-                    </div>
+                <div class="accordion">
+                  <label class="accordion__title" for="radio_2">
+                    <input type="radio" name="radio" id="radio_2">
+                    How can I keep track of the articles that have been refreshed?
+                  </label>
+                  <div class="accordion__text">
+                    <p>
+                        We have a built-in notes and calendar system that lets you keep detailed notes about what you've changed in your content and when. You can hide your optimized content for a scheduled amount of time, and after that time period has passed, the page can reappear in your to-do list - but only if traffic is still declining after the changes you made.
+                    </p>
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingThree">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                Why would I want to update old content?
-                            </button>
-                        </h3>
-                    </div>
-                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            As time passes, new competitors have released more useful, comprehensive articles, or older information or facts may have changed. Updating older content periodically allows both your users and the search engines to understand that they're reading fresh and valuable information.
-                        </div>
-                    </div>
+                <div class="accordion">
+                  <label class="accordion__title" for="radio_3">
+                    <input type="radio" name="radio" id="radio_3">
+                    Why would I want to update old content?
+                  </label>
+                  <div class="accordion__text">
+                    <p>
+                        As time passes, new competitors have released more useful, comprehensive articles, or older information or facts may have changed. Updating older content periodically allows both your users and the search engines to understand that they're reading fresh and valuable information.
+                    </p>
+                  </div>
                 </div>
-                <div class="card">
-                    <div class="card-header" id="headingFour">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                                My content is evergreen, so do I really need to refresh it?
-                            </button>
-                        </h3>
+                <div class="accordion">
+                    <label class="accordion__title" for="radio_4">
+                      <input type="radio" name="radio" id="radio_4">
+                      My content is evergreen, so do I really need to refresh it?
+                    </label>
+                    <div class="accordion__text">
+                      <p>
+                        If your traffic is declining over time, or if you've never ranked highly for your chosen keyword, your content may be evergreen, but it's likely missed the mark. If no one is finding your content, refreshing it or even completely rewriting it from a new angle may be what is needed.
+                      </p>
                     </div>
-                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            If your traffic is declining over time, or if you've never ranked highly for your chosen keyword, your content may be evergreen, but it's likely missed the mark. If no one is finding your content, refreshing it or even completely rewriting it from a new angle may be what is needed.
-                        </div>
+                  </div>
+                  <div class="accordion">
+                    <label class="accordion__title" for="radio_5">
+                      <input type="radio" name="radio" id="radio_5">
+                      How do the AI audits work?
+                    </label>
+                    <div class="accordion__text">
+                      <p>
+                        Our AI audits are trained on the same methods we teach our writers and editors to do content audits. Right now, we have 3 audits with more to come. The Helpful Content audit analyzes your article against the questions in Google's help doc and gives recommendations on what could be improved. Our competitor audit looks for topics your competitors have covered that are missing from your articles, and our Information Gain audit looks for ways you could incorporate useful and interesting data, quotes, and citations into your existing content.
+                      </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingFive">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                                How do the AI audits work?
-                            </button>
-                        </h3>
+                  </div>
+                  <div class="accordion">
+                    <label class="accordion__title" for="radio_6">
+                      <input type="radio" name="radio" id="radio_6">
+                      Does this work for non-article content, like landing pages or products?
+                    </label>
+                    <div class="accordion__text">
+                      <p>
+                        Right now, our main focus is on article and blog content. But yes, it does also work for any type of page. In the future, we'll also be adding page type-specific AI audits. The most important thing is to choose similar pages when running the competition audit. If you're auditing a product page, choose 3 other product pages to audit against. Auditing a product page against blogs or forums is unlikely to give helpful results.
+                      </p>
                     </div>
-                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Our AI audits are trained on the same methods we teach our writers and editors to do content audits. Right now, we have 3 audits with more to come. The Helpful Content audit analyzes your article against the questions in Google's help doc and gives recommendations on what could be improved. Our competitor audit looks for topics your competitors have covered that are missing from your articles, and our Information Gain audit looks for ways you could incorporate useful and interesting data, quotes, and citations into your existing content.
-                        </div>
+                  </div>
+                  <div class="accordion">
+                    <label class="accordion__title" for="radio_7">
+                      <input type="radio" name="radio" id="radio_7">
+                      How much does Rank Revival cost?
+                    </label>
+                    <div class="accordion__text">
+                      <p>
+                        Right now, we're working with a credit system. New users get 10 free credits to try our AI audits. Credits never expire, and as long as you have credits available, you can continue to use the refresh priority and notes system. 20 credits cost $20, 50 credits are $45, and 100 credits are $80. Right now, you can use the coupon code EARLYBIRD to get 50% off credits.
+                      </p>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingSix">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
-                                Does this work for non-article content, like landing pages or products?
-                            </button>
-                        </h3>
-                    </div>
-                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Right now, our main focus is on article and blog content. But yes, it does also work for any type of page. In the future, we'll also be adding page type-specific AI audits. The most important thing is to choose similar pages when running the competition audit. If you're auditing a product page, choose 3 other product pages to audit against. Auditing a product page against blogs or forums is unlikely to give helpful results.
-                        </div>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-header" id="headingSeven">
-                        <h3 class="mb-0">
-                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                                How much does Rank Revival cost?
-                            </button>
-                        </h3>
-                    </div>
-                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
-                        <div class="card-body">
-                            Right now, we're working with a credit system. New users get 10 free credits to try our AI audits. Credits never expire, and as long as you have credits available, you can continue to use the refresh priority and notes system. 20 credits cost $20, 50 credits are $45, and 100 credits are $80. Right now, you can use the coupon code EARLYBIRD to get 50% off credits.
-                        </div>
-                    </div>
-                </div>
+                  </div>
+              </div>
             </div>
-        </section>
+          </section>
 
         <section class="contact-form container">
             <h2>Contact Us</h2>
@@ -317,245 +300,16 @@
         </div>
     </footer>
 
-
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const featureItems = document.querySelectorAll('.feature-item');
-
-            function handleScroll() {
-                featureItems.forEach((item, index) => {
-                    const itemTop = item.getBoundingClientRect().top;
-                    const windowHeight = window.innerHeight;
-
-                    if (itemTop < windowHeight - 100) {
-                        item.classList.add('visible');
-                        if ((index + 1) % 2 === 0) {
-                            item.classList.remove('appear-left');
-                        } else {
-                            item.classList.add('appear-left');
-                        }
-                    }
-                });
-            }
-
-            window.addEventListener('scroll', handleScroll);
-            handleScroll(); 
-        });
-    </script>
-
-<!-- ZOOM IMG -->
-    <script> 
-        document.addEventListener("DOMContentLoaded", function() {
-            const featureImgs = document.querySelectorAll('.feature-img');
-
-            featureImgs.forEach(featureImg => {
-                const zoomLens = featureImg.querySelector('.zoom-lens');
-                const img = featureImg.querySelector('img');
-
-                featureImg.addEventListener('mousemove', (e) => moveLens(e, featureImg, zoomLens, img));
-                featureImg.addEventListener('mouseleave', () => resetLens(zoomLens, img));
-            });
-
-            function moveLens(e, featureImg, zoomLens, img) {
-                const { left, top, width, height } = featureImg.getBoundingClientRect();
-                const lensSize = zoomLens.offsetWidth / 2;
-                let x = e.pageX - left - window.pageXOffset - lensSize;
-                let y = e.pageY - top - window.pageYOffset - lensSize;
-
-                // Prevent lens from being positioned outside the image
-                if (x > width - lensSize * 2) x = width - lensSize * 2;
-                if (x < 0) x = 0;
-                if (y > height - lensSize * 2) y = height - lensSize * 2;
-                if (y < 0) y = 0;
-
-                zoomLens.style.left = `${x}px`;
-                zoomLens.style.top = `${y}px`;
-                zoomLens.style.visibility = 'visible';
-
-                // Zoom effect
-                const zoomLevel = 2; // Adjust zoom level as needed
-                img.style.transformOrigin = `${((x + lensSize) / width) * 100}% ${((y + lensSize) / height) * 100}%`;
-                img.style.transform = `scale(${zoomLevel})`;
-            }
-
-            function resetLens(zoomLens, img) {
-                zoomLens.style.visibility = 'hidden';
-                img.style.transform = 'scale(1)';
-                img.style.transformOrigin = 'center center'; // Reset transform origin
-            }
-
-            // Intersection Observer for feature items
-            const featureItems = document.querySelectorAll('.feature-item');
-
-            const observerOptions = {
-                threshold: 0.1
-            };
-
-            const observer = new IntersectionObserver((entries, observer) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('visible');
-                        observer.unobserve(entry.target); // Stop observing once the item is visible
-                    }
-                });
-            }, observerOptions);
-
-            featureItems.forEach(item => {
-                observer.observe(item);
-            });
-        });
-    </script>
-
-<!-- VIEO OVERLAY -->
-    <script>
-        document.getElementById('play-video').addEventListener('click', function(e) {
-            e.preventDefault();
-            var videoOverlay = document.getElementById('video-overlay');
-            videoOverlay.classList.add('open');
-    
-            var iframe = document.createElement('iframe');
-            iframe.width = '800';
-            iframe.height = '500';
-            iframe.src = 'https://www.youtube.com/embed/UxRby5oM8aY';
-            iframe.frameBorder = '0';
-            iframe.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture';
-            iframe.allowFullscreen = true;
-    
-            videoOverlay.appendChild(iframe);
-        });
-    
-        var overlays = document.querySelectorAll('.video-overlay, .video-overlay-close');
-        overlays.forEach(function(overlay) {
-            overlay.addEventListener('click', function(e) {
-                e.preventDefault();
-                closeVideo();
-            });
-        });
-    
-        document.addEventListener('keyup', function(e) {
-            if (e.keyCode === 27) {
-                closeVideo();
-            }
-        });
-    
-        function closeVideo() {
-            var openOverlay = document.querySelector('.video-overlay.open');
-            if (openOverlay) {
-                openOverlay.classList.remove('open');
-                var iframe = openOverlay.querySelector('iframe');
-                if (iframe) {
-                    iframe.remove();
-                }
-            }
-        }
-    </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    
 
-<!-- TESTIMONIAL SWIPER -->
-    <script>
-        const swiper = new Swiper('.swiper', {
-
-        direction: 'horizontal',
-        loop: true,
-
-        pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-        dynamicBullets: true,
-        },
-
-        navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-        },
-
-        breakpoints: { 
-        320: { 
-            slidesPerView: 1,
-        },
-        768: { 
-            slidesPerView: 2,
-        }
-        },
+    <script src="./js/feauture-scroll.js"></script>
+    <script src="./js/zoom.js"></script>
+    <script src="./js/video-modal.js"></script>
+    <script src="./js/testimonial.js"></script>
+    <script src="./js/header.js"></script>
+    <script src="./js/hero-animation.js"></script>
 
 
-        spaceBetween: 40,
-
-        slidesPerGroup: 2,
-        });
-    </script>
-
-<!-- STICKY HEADER -->
-    <script> 
-
-        window.onscroll = function() {myFunction()};
-
-
-        var header = document.getElementById("header");
-
-        
-        var sticky = header.offsetTop;
-
-       
-        function myFunction() {
-        if (window.pageYOffset > sticky) {
-            header.classList.add("sticky");
-        } else {
-            header.classList.remove("sticky");
-        }
-}
-    </script>
-
-<!-- SHOW HERO_IMG -->
-    <script> 
-        document.addEventListener("DOMContentLoaded", function() {
-            const heroImg = document.querySelector('.hero-img');
-            const wrapBig = document.querySelector('.hero-img--wrap-big');
-            const wrapSmall = document.querySelector('.hero-img--wrap-small');
-            
-    
-            setTimeout(() => {
-                heroImg.classList.add('show');
-            }, 100);
-            
-            
-            setTimeout(() => {
-                wrapBig.classList.add('show');
-            }, 200); 
-            
-        
-            setTimeout(() => {
-                wrapSmall.classList.add('show');
-            }, 800);
-        });
-    </script>
-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <!-- Add this line before the closing </body> tag -->
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <script>
-    $(document).ready(function() {
-        $('#contactForm').submit(function(event) {
-            event.preventDefault();
-            var formData = $(this).serialize();
-            $.ajax({
-                type: 'POST',
-                url: '/submit-form',
-                data: formData,
-                success: function(response) {
-                    $('#resultModalBody').text(response);
-                    $('#resultModal').modal('show');
-                    $('#contactForm')[0].reset();
-                },
-                error: function(xhr) {
-                    $('#resultModalBody').text('An error occurred while sending the email.');
-                    $('#resultModal').modal('show');
-                }
-            });
-        });
-    });
-    </script>
     <script>window.lemonSqueezyAffiliateConfig = { store: "rankrevival" };</script>
     <script src="https://lmsqueezy.com/affiliate.js" defer></script>
         
