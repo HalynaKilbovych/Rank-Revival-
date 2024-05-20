@@ -46,12 +46,11 @@
                 <div class="hero-content">
                     <h1 class="hero-title">Rank Revival</h1>
                     <p class="hero-subtitle titleh2">Always-on Audit for Content Marketers</p>
-                    <div class="hero-cta">
-                        <svg class="hero__icon" width="34" height="34">
+                    <a href="/authorize" class="btn btn-primary btn-lg login-button hero-cta">Sign up for free. No credit card required!
+                        <svg class="hero__icon" width="54" height="54">
                             <use href="./img/icon.svg#icon-user"></use>
                           </svg>
-                        <p>Sign up for free. No credit card required!</p>
-                    </div>
+                    </a>
                 </div>
                 <div class="hero-img">
                       <div class="hero-img--wrap-big">
@@ -168,111 +167,148 @@
             </div>
         </section>
 
+          <section class="faq container">
+            <h2 class="titleh2">Frequently Asked Questions</h2>
+            <div class="accordion" id="faqAccordion">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                How does Rank Revival work?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Rank Revival downloads your website data from Google Search Console, and sorts it by the URLs that have been declining in traffic over time. This allows you and your team to focus refreshing content that needs it the most.
+                        </div>
+                    </div> 
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I keep track of the articles that have been refreshed?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            We have a built-in notes and calendar system that lets you keep detailed notes about what you've changed in your content and when. You can hide your optimized content for a scheduled amount of time, and after that time period has passed, the page can reappear in your to-do list - but only if traffic is still declining after the changes you made.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Why would I want to update old content?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            As time passes, new competitors have released more useful, comprehensive articles, or older information or facts may have changed. Updating older content periodically allows both your users and the search engines to understand that they're reading fresh and valuable information.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                My content is evergreen, so do I really need to refresh it?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            If your traffic is declining over time, or if you've never ranked highly for your chosen keyword, your content may be evergreen, but it's likely missed the mark. If no one is finding your content, refreshing it or even completely rewriting it from a new angle may be what is needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                How do the AI audits work?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Our AI audits are trained on the same methods we teach our writers and editors to do content audits. Right now, we have 3 audits with more to come. The Helpful Content audit analyzes your article against the questions in Google's help doc and gives recommendations on what could be improved. Our competitor audit looks for topics your competitors have covered that are missing from your articles, and our Information Gain audit looks for ways you could incorporate useful and interesting data, quotes, and citations into your existing content.
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingSix">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Does this work for non-article content, like landing pages or products?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
 
-        <section class="section faq bg-pink-light">
-            <div class="container mx-auto">
-              <h2 class="titleh2 mb-4">Frequently Asked Question</h2>
-              <div class="accordions">
-                <div class="accordion">
-                  <label class="accordion__title" for="radio_1">
-                    <input type="radio" name="radio" id="radio_1" checked>
-                    How does Rank Revival work?
-                  </label>
-                  <div class="accordion__text">
-                    <p>
-                        Rank Revival downloads your website data from Google Search Console, and sorts it by the URLs that have been declining in traffic over time. This allows you and your team to focus refreshing content that needs it the most.
-                    </p>
-                  </div>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Right now, our main focus is on article and blog content. But yes, it does also work for any type of page. In the future, we'll also be adding page type-specific AI audits. The most important thing is to choose similar pages when running the competition audit. If you're auditing a product page, choose 3 other product pages to audit against. Auditing a product page against blogs or forums is unlikely to give helpful results.
+                        </div>
+                    </div>
                 </div>
-                <div class="accordion">
-                  <label class="accordion__title" for="radio_2">
-                    <input type="radio" name="radio" id="radio_2">
-                    How can I keep track of the articles that have been refreshed?
-                  </label>
-                  <div class="accordion__text">
-                    <p>
-                        We have a built-in notes and calendar system that lets you keep detailed notes about what you've changed in your content and when. You can hide your optimized content for a scheduled amount of time, and after that time period has passed, the page can reappear in your to-do list - but only if traffic is still declining after the changes you made.
-                    </p>
-                  </div>
+                <div class="card">
+                    <div class="card-header" id="headingSeven">
+                        <h3 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                How much does Rank Revival cost?
+                                <i class="fas fa-angle-right"></i>
+                            </button>
+                            
+                        </h3>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#faqAccordion">
+                        <div class="card-body">
+                            Right now, we're working with a credit system. New users get 10 free credits to try our AI audits. Credits never expire, and as long as you have credits available, you can continue to use the refresh priority and notes system. 20 credits cost $20, 50 credits are $45, and 100 credits are $80. Right now, you can use the coupon code EARLYBIRD to get 50% off credits.
+                        </div>
+                    </div>
                 </div>
-                <div class="accordion">
-                  <label class="accordion__title" for="radio_3">
-                    <input type="radio" name="radio" id="radio_3">
-                    Why would I want to update old content?
-                  </label>
-                  <div class="accordion__text">
-                    <p>
-                        As time passes, new competitors have released more useful, comprehensive articles, or older information or facts may have changed. Updating older content periodically allows both your users and the search engines to understand that they're reading fresh and valuable information.
-                    </p>
-                  </div>
-                </div>
-                <div class="accordion">
-                    <label class="accordion__title" for="radio_4">
-                      <input type="radio" name="radio" id="radio_4">
-                      My content is evergreen, so do I really need to refresh it?
-                    </label>
-                    <div class="accordion__text">
-                      <p>
-                        If your traffic is declining over time, or if you've never ranked highly for your chosen keyword, your content may be evergreen, but it's likely missed the mark. If no one is finding your content, refreshing it or even completely rewriting it from a new angle may be what is needed.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="accordion">
-                    <label class="accordion__title" for="radio_5">
-                      <input type="radio" name="radio" id="radio_5">
-                      How do the AI audits work?
-                    </label>
-                    <div class="accordion__text">
-                      <p>
-                        Our AI audits are trained on the same methods we teach our writers and editors to do content audits. Right now, we have 3 audits with more to come. The Helpful Content audit analyzes your article against the questions in Google's help doc and gives recommendations on what could be improved. Our competitor audit looks for topics your competitors have covered that are missing from your articles, and our Information Gain audit looks for ways you could incorporate useful and interesting data, quotes, and citations into your existing content.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="accordion">
-                    <label class="accordion__title" for="radio_6">
-                      <input type="radio" name="radio" id="radio_6">
-                      Does this work for non-article content, like landing pages or products?
-                    </label>
-                    <div class="accordion__text">
-                      <p>
-                        Right now, our main focus is on article and blog content. But yes, it does also work for any type of page. In the future, we'll also be adding page type-specific AI audits. The most important thing is to choose similar pages when running the competition audit. If you're auditing a product page, choose 3 other product pages to audit against. Auditing a product page against blogs or forums is unlikely to give helpful results.
-                      </p>
-                    </div>
-                  </div>
-                  <div class="accordion">
-                    <label class="accordion__title" for="radio_7">
-                      <input type="radio" name="radio" id="radio_7">
-                      How much does Rank Revival cost?
-                    </label>
-                    <div class="accordion__text">
-                      <p>
-                        Right now, we're working with a credit system. New users get 10 free credits to try our AI audits. Credits never expire, and as long as you have credits available, you can continue to use the refresh priority and notes system. 20 credits cost $20, 50 credits are $45, and 100 credits are $80. Right now, you can use the coupon code EARLYBIRD to get 50% off credits.
-                      </p>
-                    </div>
-                  </div>
-              </div>
             </div>
-          </section>
-
-        <section class="contact-form container">
-            <h2>Contact Us</h2>
-            <form id="contactForm">
-                <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" class="form-control" id="name" name="name" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
-                </div>
-                <div class="g-recaptcha" data-sitekey="6LdUftcpAAAAAOZj84mbS875kOcilGMb6nfXke1r"></div>
-                <br>
-                <button type="submit" class="btn btn-primary">Send</button>
-            </form>
+        </section>	
+            
+        <section class="contact-form">
+            <div class="contact-form__container container">
+                <h2 class="titleh2">Contact Us</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Name:</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message:</label>
+                        <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <div class="g-recaptcha" data-sitekey="6LdUftcpAAAAAOZj84mbS875kOcilGMb6nfXke1r"></div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
+            </div>
+            
         </section>
 
         <div class="modal fade" id="resultModal" tabindex="-1" role="dialog" aria-labelledby="resultModalLabel" aria-hidden="true">
@@ -299,9 +335,49 @@
             <p>&copy; 2023 Rank Revival. All rights reserved. | <a href="{{ url_for('privacy') }}" target="_blank">Privacy Policy</a></p>
         </div>
     </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const collapseToggleButtons = document.querySelectorAll('[data-toggle="collapse"]');
 
+            collapseToggleButtons.forEach(button => {
+                const icon = button.querySelector('i');
+                const target = document.querySelector(button.getAttribute('data-target'));
+
+                if (button.getAttribute('aria-expanded') === 'true') {
+                    icon.classList.add('rotate');
+                }
+
+                button.addEventListener('click', function () {
+                    const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+                    
+                    collapseToggleButtons.forEach(btn => {
+                        const btnIcon = btn.querySelector('i');
+                        btnIcon.classList.remove('rotate');
+                    });
+
+                   
+                    if (!isExpanded) {
+                        icon.classList.add('rotate');
+                    }
+                });
+
+                
+                target.addEventListener('shown.bs.collapse', function () {
+                    icon.classList.add('rotate');
+                });
+
+                target.addEventListener('hidden.bs.collapse', function () {
+                    icon.classList.remove('rotate');
+                });
+            });
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
     <script src="./js/feauture-scroll.js"></script>
     <script src="./js/zoom.js"></script>
     <script src="./js/video-modal.js"></script>
