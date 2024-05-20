@@ -6,7 +6,7 @@ document.getElementById('play-video').addEventListener('click', function(e) {
     var iframe = document.createElement('iframe');
     iframe.width = '800';
     iframe.height = '500';
-    iframe.src = 'https://www.youtube.com/embed/UxRby5oM8aY';
+    iframe.src = 'https://www.youtube.com/embed/49bbOpCc-tY';
     iframe.frameBorder = '0';
     iframe.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture';
     iframe.allowFullscreen = true;
@@ -38,3 +38,4 @@ function closeVideo() {
         }
     }
 }
+
