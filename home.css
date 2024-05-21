@@ -738,7 +738,6 @@ label {
   align-items: center;
   color: var(--primary-accent-color);
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .accordion>.card{ 
