@@ -661,12 +661,10 @@ label {
 }
 
 .faq {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  padding: 80px 0px 60px;
 }
 
 .faq h2 {
-  font-size: 32px;
   font-weight: 600;
   margin-bottom: 30px;
 
@@ -701,7 +699,7 @@ label {
 .btn.btn-link { 
   width: 100%;
   text-align: left;
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 0.07em;
 }
 
@@ -809,9 +807,6 @@ section.faq .card-header {
 .social-icons li:hover { 
   background-color: var(--secondary-accent-color);
   transition: all 250ms ease-in-out;
-}
-.social { 
-
 }
 
 .title-content p { 
@@ -926,6 +921,17 @@ footer {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
+}
+
+.faq h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 30px;
+
+}
+
+.btn.btn-link { 
+  font-size: 20px;
 }
 }
 @media screen and (min-width: 1200px) {
