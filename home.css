@@ -25,7 +25,7 @@ ul {
 }
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--text-color);
   background-color: var(--primary-background-color);
@@ -209,7 +209,7 @@ address {
     width: 32px;
     height: 44px;
     border-radius: 50%;
-    padding: 18px 20px 18px 28px;
+    /* padding: 18px 20px 18px 28px; */
   }
   
   .video-play-button:before {
@@ -661,7 +661,7 @@ label {
 }
 
 .faq {
-  padding: 80px 0px 60px;
+  padding: 80px 0px 80px;
 }
 
 .faq h2 {
@@ -762,7 +762,7 @@ section.faq .card-header {
 /* contact */
 .contact-form { 
   background-color: #f8f9fa;
-  padding: 100px 0;
+  padding: 80px 0;
   position: relative;
   z-index: 0;
 }
@@ -830,13 +830,56 @@ footer {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 580px) {
+  .hero{ 
+    padding: 60px 0;
+  }
+
+  .hero-cta { 
+    line-height: 24px;
+  }
+
+  .hero-content { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .video-play-button {
+    padding: 0;
+  }
+
+  .feature, .testimonials, .faq, .contact-form{
+    padding: 60px 0px;
+  }
+
+  .feature-text {
+    margin-bottom: 20px;
+  }
+  .feature-number {
+    font-size: 70px;
+  }
+
+  .feature-list {
+    gap: 30px;
+  }
+
+  .testimonials__container {
+    gap: 20px;
+  }
+
+  .contact-form form  {
+    width: 95%;
+  }
+
+  footer p { 
+    max-width: 300px;
+    margin: 0 auto;
+  }
 
 }
 @media screen and (min-width: 768px) {
-  body {
-    font-size: 14px;
-  }
 
 
   .logo { 
